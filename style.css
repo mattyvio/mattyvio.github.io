@@ -1,0 +1,59 @@
+.navbar {
+  background-color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: #a43a53;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #a43a53;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #a43a53;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+#logo {
+  margin-left: 24%;
+  width: 25%;
+  height: 25%;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.list-group-item {
+  border: none;
+  color: #a43a53;
+}
+
+.list-group-item.active {
+  background-color: #f0cbd3;
+  color: #a43a53;
+}
+
+.tab-content > .active {
+  color: #a43a53;
+}
+
+.col {
+  padding-bottom: 2%;
+  transition: all 1s;
+}
+.col:hover {
+  transform: scale(1.05);
+}
+
+.jumbotron img {
+  max-width: 100%;
+  height: auto;
+}
